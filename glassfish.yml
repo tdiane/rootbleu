@@ -1,8 +1,8 @@
 ---
 - hosts: production
-    tasks: 
-      - name: copie ROOT
-        copy: 
-          src: ROOT.war
-          dest: glassfish5/glassfish/domains/domain1/autodeploy
+  tasks:  
+    - name: copie ROOT
+      copy: 
+        src: ROOT.war
+        dest: glassfish5/glassfish/domains/domain1/autodeploy
 
