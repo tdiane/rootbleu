@@ -4,5 +4,6 @@
     - name: copie ROOT
       copy: 
         src: ROOT.war
-        dest: glassfish5/glassfish/domains/domain1/autodeploy
+        dest: /var/lib/docker/volumes/autodeploy/_data/
+
 
